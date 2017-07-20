@@ -1,0 +1,30 @@
+{
+  "name": "platzom",
+  "version": "1.1.1",
+  "description": "Primero proyecto de platzi.com",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duque1226/platzom.git"
+  },
+  "keywords": [
+    "js",
+    "fundamentos"
+  ],
+  "author": "duque93@hotmail.es (facebook.com/duquesinho)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duque1226/platzom/issues"
+  },
+  "homepage": "https://github.com/duque1226/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
